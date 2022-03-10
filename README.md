@@ -24,3 +24,25 @@ Additional considerations:
   - What needs to live in a persistence layer?
 - Is there some state we need to initialize?
 - Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be resused?)
+
+![wireframe](/assets/Untitled.png "my wireframe plan")
+
+1. setup html with correct layout of divs and id's for calling later for DOM:
+    Main
+      section (pictures)
+        Water choice image
+        Skyline choice image
+        nature choice
+      section (city name)
+        city name centered
+      section (event listeners and arrays)
+        selectors div
+        city name input div
+        slogan input div
+        slogan array listed
+2. get grid layed out in css
+3. Grab DOM elements
+4. Grab state
+5. Add event listeners
+6. Add functions
+7. make it purdy in css(we hope)
