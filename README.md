@@ -37,9 +37,25 @@ Additional considerations:
         city name centered
       section (event listeners and arrays)
         selectors div
+          water select
+            option
+            option
+            option
+          skyline select
+            option
+            option
+            option
+          nature select
+            option
+            option
+            option
         city name input div
+          input bar
         slogan input div
+          input bar
+          button
         slogan array listed
+          array div
 2. get grid layed out in css
 3. Grab DOM elements
 4. Grab state
