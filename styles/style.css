@@ -4,7 +4,7 @@ body {
     
     --color1: rgb(255, 255, 255);
     --color2: white;
-    --color3: white;
+    --color3: rgb(121, 100, 214);
     --color4: white;
     --color5: white;
     
@@ -33,13 +33,13 @@ body {
 
 main {
     display: grid;
-    grid-template-columns: 35% 20% 45%;
+    grid-template-columns: 35% 30% 35%;
     height: 80%;
     background-image: url('../assets/space.jpg');
 }
 
 section {
-    background-image: url('../assets/space.jpg');
+    
     max-width: 80%;
     display: grid;
     grid-template-columns: 1fr;
@@ -75,9 +75,7 @@ header img {
     height: var(--header-height);
 }
 
-p {
-    margin: var(--gutter);
-}
+
 
 footer {
     position: fixed;
@@ -111,4 +109,13 @@ footer {
 #natureImage {
     width: 300px;
     height: 200px;
+}
+#cityNameHolder {
+    display: grid;
+    grid-template-rows: 5% 95%;
+    grid-template-columns: 1fr;
+}
+#selectorTitle {
+    display: flex;
+    flex: auto;
 }
