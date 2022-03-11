@@ -28,17 +28,18 @@ body {
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+    background-image: url('../assets/space.jpg');
 }
 
 main {
     display: grid;
     grid-template-columns: 35% 20% 45%;
     height: 80%;
+    background-image: url('../assets/space.jpg');
 }
 
 section {
-    background-color: var(--color5);
+    background-image: url('../assets/space.jpg');
     max-width: 80%;
     display: grid;
     grid-template-columns: 1fr;
@@ -49,7 +50,7 @@ section {
     padding-bottom: var(--gutter);
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
-    border: solid 2px var(--color1);
+    color: aliceblue;
 }
 
 header {
@@ -85,8 +86,9 @@ footer {
     height: var(--footer-height);
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
+    background-image: url('../assets/space.jpg');
     box-shadow: var(--shadow);
+    color: aliceblue;
 }
 #events {
     display: grid;
