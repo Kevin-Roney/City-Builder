@@ -64,3 +64,18 @@ ___***RUBRIC REFERENCE***___ https://github.com/alchemycodelab/city-builder
 5. Add event listeners
 6. Add functions
 7. make it purdy in css(we hope)
+
+DOM elements staging area (so I don't fail CI for the night😎.. in theory😨) :
+//images and counter
+const waterImg = document.getElementById('waterImage');
+const skylineImg = document.getElementById('skylineImage');
+const natureImg = document.getElementById('natureImage');
+const counter = document.getElementById('')
+
+//city name
+const cityNm = document.getElementById('cityName')
+
+//dropdowns
+const waterDropdown = document.getElementById('waterSelector');
+const skylineDropdown = document.getElementById('skylineSelector');
+const natureDropdown = document.getElementById('natureDropdown');
