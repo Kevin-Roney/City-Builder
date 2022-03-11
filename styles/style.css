@@ -2,9 +2,9 @@
 body {
     /* feel free to update these css variables for a quick theme */
     
-    --color1: white;
+    --color1: rgb(255, 255, 255);
     --color2: white;
-    --color3: white;
+    --color3: rgb(121, 100, 214);
     --color4: white;
     --color5: white;
     
@@ -28,29 +28,29 @@ body {
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+    background-image: url('../assets/space.jpg');
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: calc(var(--footer-height));
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    height: 80%;
+    background-image: url('../assets/space.jpg');
 }
 
 section {
-    background-color: var(--color5);
+    
     max-width: 80%;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     justify-content: center;
     align-items: center;
     padding-top: var(--gutter);
     padding-bottom: var(--gutter);
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
-    border: solid 2px var(--color1);
+    color: aliceblue;
 }
 
 header {
@@ -75,10 +75,8 @@ header img {
     height: var(--header-height);
 }
 
-p {
-    margin: var(--gutter);
-}
-  
+
+
 footer {
     position: fixed;
     width: 100%;
@@ -86,6 +84,38 @@ footer {
     height: var(--footer-height);
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
+    background-image: url('../assets/space.jpg');
     box-shadow: var(--shadow);
+    color: aliceblue;
+}
+#events {
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
+}
+#picturesDiv {
+    display: grid;
+    grid-template-rows: 30% 30% 30% 10%;
+    grid-template-columns: 1fr;
+}
+#waterImage {
+    width: 300px;
+    height: 200px;
+}
+#skylineImage {
+    width: 300px;
+    height: 200px;
+}
+#natureImage {
+    width: 300px;
+    height: 200px;
+}
+#cityNameHolder {
+    display: grid;
+    grid-template-rows: 5% 95%;
+    grid-template-columns: 1fr;
+}
+#selectorTitle {
+    display: flex;
+    flex: auto;
 }

@@ -24,3 +24,58 @@ Additional considerations:
   - What needs to live in a persistence layer?
 - Is there some state we need to initialize?
 - Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be resused?)
+
+___***RUBRIC REFERENCE***___ https://github.com/alchemycodelab/city-builder
+
+![wireframe](/assets/Untitled.png "my wireframe plan")
+
+1. setup html with correct layout of divs and id's for calling later for DOM:
+    Main
+      section (pictures)
+        Water choice image
+        Skyline choice image
+        nature choice
+      section (city name)
+        city name centered
+      section (event listeners and arrays)
+        selectors div
+          water select
+            option
+            option
+            option
+          skyline select
+            option
+            option
+            option
+          nature select
+            option
+            option
+            option
+        city name input div
+          input bar
+        slogan input div
+          input bar
+          button
+        slogan array listed
+          array div
+2. get grid layed out in css
+3. Grab DOM elements
+4. Grab state
+5. Add event listeners
+6. Add functions
+7. make it purdy in css(we hope)
+
+DOM elements staging area (so I don't fail CI for the night😎.. in theory😨) :
+//images and counter
+const waterImg = document.getElementById('waterImage');
+const skylineImg = document.getElementById('skylineImage');
+const natureImg = document.getElementById('natureImage');
+const counter = document.getElementById('')
+
+//city name
+const cityNm = document.getElementById('cityName')
+
+//dropdowns
+const waterDropdown = document.getElementById('waterSelector');
+const skylineDropdown = document.getElementById('skylineSelector');
+const natureDropdown = document.getElementById('natureDropdown');

@@ -19,48 +19,54 @@
         </div>
     </header>
     <main>
-        <section class="main-section">
-            <img class="main-logo" src="./assets/alchemy-logo.png" />
-            <h2>
-                Welcome to Alchemy Bootstrap!
-            </h2>
-
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur
-                voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos
-                praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores
-                provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente
-                excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil
-                inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi
-                reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit
-                possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis
-                ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa
-                praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis
-                exercitationem?
+        <section id="picturesDiv">
+            <img id="waterImage" src="./assets/placeholder1.jpg">
+            <img id="skylineImage" src="./assets/placeholder2.jpg">
+            <img id="natureImage" src="./assets/placeholder3.jpg">
+            <p id="imageChangeCount">
+                Choose an image to start counting!
             </p>
-            <hr />
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur
-                voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos
-                praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores
-                provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente
-                excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil
-                inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi
-                reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit
-                possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis
-                ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa
-                praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis
-                exercitationem?
-            </p>
-
+        </section>
+        <section id="cityNameHolder">
+            <h2>🪐 Create Your World 🪐</h2>
+            <div id="cityName">Start typing in the world<br> name box to change this!</div>
+        </section>
+        <section id="events">
+            <div id="selectors">
+                <p id="selectorTitle">Select options to<br> change the images!</p>
+                <select name="waterChoice" id="waterSelector">
+                    <option value="" disabled selected hidden>Choose Somethin'!</option>
+                    <option value="water1">Water 1</option>
+                    <option value="water2">Water 2</option>
+                    <option value="water3">Water 3</option>
+                </select>
+                <select name="skylineChoice" id="skylineSelector">
+                    <option value="" disabled selected hidden>Choose Somethin'!</option>
+                    <option value="skyline1">Skyline 1</option>
+                    <option value="skyline2">Skyline 2</option>
+                    <option value="skyline3">Skyline 3</option>
+                </select>
+                <select name="natureChoice" id="natureSelector">
+                    <option value="" disabled selected hidden>Choose Somethin'!</option>
+                    <option value="nature1">Nature 1</option>
+                    <option value="nature2">Nature 2</option>
+                    <option value="nature3">Nature 3</option>
+                </select>
+                </div>
+            <div id="cityNameInputHolder">
+                <p>Enter a world name!</p>
+                <input type="text" name="city-namer" id="cityNameInput">
+            </div>
+            <div id="sloganInputHolder">
+                <p>Enter a slogan!</p>
+                <input type="text" name="slogan-box" id="sloganInput">
+                <button id="sloganButton">Add Slogan!</button>
+            </div>
+            <div id="sloganHolder">
+                <p>world slogans:</p>
+                <p id="slogans">
+                </p>
+            </div>
         </section>
     </main>
     <footer>
