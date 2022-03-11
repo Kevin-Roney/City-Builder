@@ -25,7 +25,7 @@ Additional considerations:
 - Is there some state we need to initialize?
 - Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be resused?)
 
-___***RUBERIC REFERENCE***___ https://github.com/alchemycodelab/city-builder
+___***RUBRIC REFERENCE***___ https://github.com/alchemycodelab/city-builder
 
 ![wireframe](/assets/Untitled.png "my wireframe plan")
 
